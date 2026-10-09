@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <title>AZA INVEST</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080d18;
+      color: white;
+    }
+    header {
+      padding: 22px 18px;
+      background: #101827;
+      border-bottom: 1px solid #26344a;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo { font-size: 24px; font-weight: bold; }
+    .logo span { color: #25d98b; }
+    .hero { padding: 36px 20px; text-align: center; }
+    .hero h1 { font-size: 32px; margin-bottom: 12px; }
+    .hero h1 span { color: #28d994; }
+    .hero p { color: #b8c4d8; line-height: 1.6; }
+    .button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 14px 22px;
+      background: #1769ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+    .section { padding: 10px 18px 28px; }
+    .section h2 { font-size: 22px; }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .card {
+      background: #121d2e;
+      border: 1px solid #283951;
+      border-radius: 14px;
+      padding: 18px 12px;
+    }
+    .card h3 { color: #28d994; margin-top: 4px; }
+    .card p { color: #bdc8d8; font-size: 14px; line-height: 1.5; }
+    .notice {
+      margin: 0 18px 24px;
+      padding: 14px;
+      background: #19253a;
+      border-radius: 10px;
+      color: #d0d9e8;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    footer {
+      padding: 24px 18px;
+      text-align: center;
+      color: #8c9bb2;
+      border-top: 1px solid #26344a;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">AZA <span>INVEST</span></div>
+    <div>● <span style="color:#28d994">En ligne</span></div>
+  </header>  <main>
+    <section class="hero">
+      <h1>Construisons votre <span>avenir</span></h1>
+      <p>Bienvenue sur AZA INVEST, votre espace pour découvrir nos projets et suivre vos démarches.</p>
+      <a class="button" href="#services">Découvrir la plateforme</a>
+    </section><section class="section" id="services">
+  <h2>Votre espace AZA</h2>
+  <div class="cards">
+    <div class="card">
+      <div>👤</div>
+      <h3>Mon compte</h3>
+      <p>Un espace personnel sera disponible après sa mise en place.</p>
+    </div>
+    <div class="card">
+      <div>📊</div>
+      <h3>Activités</h3>
+      <p>Retrouvez ici les informations sur les projets proposés.</p>
+    </div>
+    <div class="card">
+      <div>💳</div>
+      <h3>Paiements</h3>
+      <p>Les paiements seront ajoutés après configuration sécurisée.</p>
+    </div>
+    <div class="card">
+      <div>🛡️</div>
+      <h3>Sécurité</h3>
+      <p>La protection des comptes sera une priorité du projet.</p>
+    </div>
+  </div>
+</section>
+
+<div class="notice">
+  Version initiale du site. Aucun dépôt d'argent, investissement ou paiement réel n'est activé. Ces fonctions nécessitent un serveur sécurisé et les vérifications réglementaires nécessaires.
+</div>
+
+  </main>  <footer>
+    © 2026 AZA INVEST — Tous droits réservés.
+  </footer>
+</body>
+</html>
